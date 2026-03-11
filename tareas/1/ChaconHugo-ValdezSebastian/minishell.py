@@ -59,7 +59,7 @@ def mini_shell():
                     pass # El hijo ya imprimió su error
 
         except EOFError:
-            # Manejar Ctrl+D para salir limpiamente
+            # Por si sale con Ctrl+D que muestre el mensaje
             print("\nSaliendo...")
             break
         except Exception as e:
